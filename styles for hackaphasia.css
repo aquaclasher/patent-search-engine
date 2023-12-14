@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.pexels.com/photos/1421903/pexels-photo-1421903.jpeg?auto=compress&cs=tinysrgb&w=2260&h=1750&dpr=1');
+    background-size:100%;
+    color: #c0bfc6;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 15px;
+    font-size: 18px;
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: rgb(50, 146, 26);
+    color: rgb(239, 229, 229);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.chat-message {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-message {
+    background-color: #3498db;
+    color: #fff;
+    text-align: left;
+}
+
+.bot-message {
+    background-color: #2ecc71;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.bot-message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
